@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .full-grid-item{
+    grid-column: 1 / -1;
+}
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.App > div{
+  margin: 10px;
+  max-height: 650px;
+  overflow: scroll;
+  min-height: 400px;
+}

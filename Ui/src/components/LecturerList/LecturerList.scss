@@ -1,0 +1,30 @@
+
+.lecturer-form-wrapper{
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+
+.lecturer-list-container{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex: 2;
+    position: relative;
+}
+
+.lecturer-form{
+    display: flex;
+
+    & select{
+        flex:50% 0 0;
+        max-width: 500px;
+        border-radius: 10px;
+        padding: 0 18px;
+        font-size: 16px;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+    }
+}
+
+.grid-col-auto{grid-template-columns: repeat(auto-fill, minmax(260px, max-content));}
+
